@@ -29,7 +29,7 @@
 %============================================================================%
 
 %we use article class because we want to fully customize the page and don't use a cv template
-\documentclass[10pt,A4]{article}	
+\documentclass[10pt,A4]{ctexart}	
 
 
 %----------------------------------------------------------------------------------------
@@ -333,7 +333,7 @@
 % param 1: percent width, from 0 to 1
 \newcommand{\cvqrcode}[1] {
 	\begin{center}
-		\includegraphics[width={#1}\mpwidth]{qrcode}
+		\includegraphics[width={#1}\mpwidth]{qdq}
 	\end{center}
 }
 
@@ -357,7 +357,7 @@
 %---------------------------------------------------------------------------------------
 %	META IMAGE
 %----------------------------------------------------------------------------------------
-\includegraphics[width=\linewidth]{untitled.jpg}	%trimming relative to image size
+\includegraphics[width=\linewidth]{zpf.jpg}	%trimming relative to image size
 
 %---------------------------------------------------------------------------------------
 %	META SKILLS
@@ -366,28 +366,30 @@
 
 \cvskill{Python} {5+ yrs} {1} \\[-2pt]
 
-\cvskill{Ansible} {5+ yrs} {1} \\[-2pt]
+\cvskill{c/c++} {5+ yrs} {1} \\[-2pt]
+
+\cvskill{Rust} {2+ yrs} {0.8} \\[-2pt]
+
+\cvskill{Haskell} {2+ yrs} {0.8} \\[-2pt]
 
 \cvskill{Linux} {5+ yrs} {1} \\[-2pt]
 
+\cvskill{shell} {5+ yrs} {1} \\[-2pt]
+
 \cvskill{Open Source Tools} {5+ yrs} {1} \\[-2pt]
 
-\cvskill{Django} {5+ yrs} {0.8} \\[-2pt]
-
-\cvskill{Html/CSS} {3+ yrs} {0.72} \\[-2pt]
-
-\cvskill{Javascript} {3+ yrs} {0.69} \\[-2pt]
-
 \cvskill{GIT} {3+ yrs} {1} \\[-2pt]
+
+\cvskill{CMAKE} {3+ yrs} {1} \\[-2pt]
 
 
 
 \vfill\null
 \cvsection{CONTACT}
 	
-\icontext{MapMarker}{12}{Example St. 1\\12345 Somewhere}{black}\\[6pt]
-\icontext{MobilePhone}{12}{+49 178 910 11 12 13}{black}\\[6pt]
-\iconemail{Envelope}{12}{contact@example.com}{contact@example.com}{black}\\[6pt]
+\icontext{MapMarker}{12}{安徽-合肥}{black}\\[6pt]
+\icontext{MobilePhone}{12}{130 2322 7925}{black}\\[6pt]
+\iconemail{Envelope}{12}{2690955288@qq.com}{2690955288@qq.com}{black}\\[6pt]
 
 \vfill\null
 \cvqrcode{0.7}
@@ -395,61 +397,61 @@
 %---------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-\newpage
-\cvsection{EDUCATION}
-
-\cvmetaevent
-{2009 - 2011}
-{M. Sc. Physics.}
-{Universität Bonn}
-{Main thematic priority of those master studies was numerical time series analysis of non-linear dynamical systems. Besides data analysis and transformation, great importance was attached to fast algorithms and efficient software architecture.
-
-In the master thesis a numerical approach for the detection of the direction of interaction was proposed. Analysis of this new approach was performed with the help computer simulations to find out its limits and to compare it to another commonly used approaches.
-
-This numerical approach was highly optimised for cluster computing and implemented in c++ . For those purposes a distributed computing cluster had to be set up and administrated.}
-
-\cvmetaevent
-{2006 - 2009}
-{B. Sc. Physics.}
-{Universität Bonn}
-{The topic for the bachelor's thesis was 'Feshbach resonance'. A numerical application was built to calculate the diagrams.}
-
-\vfill\null
-\cvqrcode{0.7}
+%\newpage
+%\cvsection{EDUCATIONS}
+%
+%\cvmetaevent
+%{2009 - 2011}
+%{M. Sc. Physics.}
+%{Universität Bonn}
+%{Main thematic priority of those master studies was numerical time series analysis of non-linear dynamical systems. Besides data analysis and transformation, great importance was attached to fast algorithms and efficient software architecture.
+%
+%In the master thesis a numerical approach for the detection of the direction of interaction was proposed. Analysis of this new approach was performed with the help computer simulations to find out its limits and to compare it to another commonly used approaches.
+%
+%This numerical approach was highly optimised for cluster computing and implemented in c++ . For those purposes a distributed computing cluster had to be set up and administrated.}
+%
+%\cvmetaevent
+%{2006 - 2009}
+%{B. Sc. Physics.}
+%{Universität Bonn}
+%{The topic for the bachelor's thesis was 'Feshbach resonance'. A numerical application was built to calculate the diagrams.}
+%
+%\vfill\null
+%\cvqrcode{0.7}
 
 %---------------------------------------------------------------------------------------
 %	CERTIFICATION
 %----------------------------------------------------------------------------------------
-\newpage
-\cvsection{CERTIFICATIONS}
-
-\cvmetaevent
-{LPIC 1 - Linux administrator}
-{}
-{}
-{Certificate issued by the Linux Professional Institute to prove abilities in Linux administration}
-
-\cvmetaevent
-{IBM InfoSphere Advanced DataStage Essentials}
-{}
-{}
-{Intense course about the ETL technologies and the use of IBM DataStage.}
-
-\cvmetaevent
-{Jump Start Program}
-{}
-{}
-{Two months full-time training in object oriented programming in Java SE/EE, software development, testing and modern enterprise web-frameworks. Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glasfish / JBoss / Jety)}
-
-
-\cvmetaevent
-{Online Classes}
-{}
-{}
-{It is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.}
-
-\vfill
-\cvqrcode{0.7}
+%\newpage
+%\cvsection{CERTIFICATIONS}
+%
+%\cvmetaevent
+%{LPIC 1 - Linux administrator}
+%{}
+%{}
+%{Certificate issued by the Linux Professional Institute to prove abilities in Linux administration}
+%
+%\cvmetaevent
+%{IBM InfoSphere Advanced DataStage Essentials}
+%{}
+%{}
+%{Intense course about the ETL technologies and the use of IBM DataStage.}
+%
+%\cvmetaevent
+%{Jump Start Program}
+%{}
+%{}
+%{Two months full-time training in object oriented programming in Java SE/EE, software development, testing and modern enterprise web-frameworks. Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glasfish / JBoss / Jety)}
+%
+%
+%\cvmetaevent
+%{Online Classes}
+%{}
+%{}
+%{It is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.}
+%
+%\vfill
+%\cvqrcode{0.7}
 
 \newpage
 \mbox{} % hotfix to place qrcode on the bottom when there are not other elements
@@ -463,9 +465,9 @@ This numerical approach was highly optimised for cluster computing and implement
 %----------------------------------------------------------------------------------------
 \fcolorbox{white}{darkcol}{\begin{minipage}[c][3.5cm][c]{1\mpwidth}
 	\begin {center}
-		\HUGE{ \textbf{ \textcolor{white}{ \uppercase{ ILYA RUMYANTSEV } } } } \\[-24pt]
+		\HUGE{ \textbf{ \textcolor{white}{ \uppercase{赵鹏飞} } } } \\[-24pt]
 		\textcolor{white}{ \rule{0.1\textwidth}{1.25pt} } \\[4pt]
-		\large{ \textcolor{white} {Freelance Automation  Consultant and Developer} }
+		\large{ \textcolor{white} {软件开发工程师} }
 	\end {center}
 \end{minipage}} \\[14pt]
 \vspace{-12pt}
@@ -474,15 +476,33 @@ This numerical approach was highly optimised for cluster computing and implement
 %	PROFILE
 %----------------------------------------------------------------------------------------
 \vfill\null
-\cvsection{PROFILE}
+\cvsection{EDUCATION}
 
-\cvtext{IT Consultant with strong theoretical skills and a passion for OpenSource sofware.\\
-
-DevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both.\\
-
-Customer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams.\\
-
+\cvmetaevent
+{2018 - 2021}
+{硕士--理论数学}
+{上海交通大学}
+{
+分析学、基础代数学、代数组合、图论
 }
+
+\cvmetaevent
+{2013 - 2017}
+{学士--理论数学}
+{南昌大学}
+{
+分析学、基础代数学、代数组合、图论
+
+概率论、数理统计、近世代数
+}
+
+%\cvtext{IT Consultant with strong theoretical skills and a passion for OpenSource sofware.\\
+%
+%DevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both.\\
+%
+%Customer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams.\\
+%
+%}
 
 %---------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
@@ -491,154 +511,77 @@ Customer-oriented and structured method of working, focused on quality and maint
 \cvsection{WORK EXPERIENCE}
 
 \cvevent
-	{Sep 15 - NOW}
-	{DevOps/FullStack developer}
-	{Research and Development}
-	{A large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workfows for role based access, life time and monitoring had to be established}
+	{2024.08 - 2025.05}
+    {超算智芯(合肥)科技有限公司}
+	{算法工程师}
+	{本项目聚焦于全同态加密算法的实现与性能优化，并将其应用于大规模模型的推理过程，以提升数据隐私保护能力。}
 	{\cvlist{
-		\item Creation of a web portal for role- and rights management
-		\item Establishing a connection to the existing MicroFocus role solution
-		\item Development of new role-based workfows and processes, as well as training and support
-		\item Maintenance of existing infrastructure
+		\item 开发并实现了支持同态加密的底层基本运算模块，包括加法、减法、乘法及整数除法。
+		\item 实现了Programmable Bootstrap功能，从而支持同态加密中的任意复杂运算，增强了系统的灵活性和功能性。
+		\item 构建大模型所需的底层运算支持体系，涵盖线性代数运算、激活函数及梯度计算等关键模块。
+		\item 设计并实现了高效的全同态加密算法并行化方案，通过利用多线程/分布式计算资源，提高了运算效率达30x。
 	}}
 	{\cvlist {
-		\item Django for the roles- and rights management tool backend (backend is a REST interface)
-		\item Angular for the easy frontend interaction
-		\item HTML5/CSS3/Bootstrap3 for the frontend
-		\item Ansible + Docker for 1-click deployments
+		\item c++构建核心算法
+		\item 利用CMake构建系统优化项目组织，实现了灵活的编译配置，包括但不限于调试、测试和性能优化版本，有效缩短了开发周期并提高了产品质量。
 	}}
 	{\cvlist{
-		\item A web based tool for an intuitive role assignment and administration
-		\item Online overview of company structures, projects, etc
-		\item Tools for role review, reporting and troubleshooting
+		\item 独立完成全同态加密算法的设计与实现，构建了功能完整的原型系统，验证了算法的正确性与可行性。
 	}}
 
 \vfill\null
 \cvevent
-	{Jan 15 - Sep 15}
-	{DevOps engineer}
-	{Research and Development}
-	{Responsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management}
+	{2022.07 - 2024.04}
+	{外企德科-杭州华为研究所}
+	{软件开发工程师-预研与开发}
+	{
+        2022.09-2024.04 \textbf{gem5 工程支撑}：负责并行模块和 CHI 协议的开发和维护。 梳理相关代码和文档，解决用户提出的相关并行与CHI协议bug，深入研究 了锁的实现和使用，并针对各种bug制定了相应的解决方案。提高了系统稳 定性和团队工作效率，使得 gem5 在不损失精度的情况下提高了 50\% 的效率。 \\
+\\
+    2023.01-2024.02 \textbf{大容量 LLC 动态 QoS 软硬协同}：负责和华为云的 QoS 合作项目，提升硬件利用效率和云服务性能。完成从需求调研、方 案输出和项目测试。和华为云团队保持紧密合作，高效协调资源分配。成 功完成项目，为云场景性能提升提供了有效解决方案同时输出算法专利 一篇，专利名称《一种黑盒负载性能及需求感知的 LLC QOS 优化方 法》。具备了一定机器学习方向的技术积累，能够熟练使用pytorch推理框架， 能够利用Docker进行算法迁移，掌握perf以及flamegrahp等性能调优工具。\\
+    \\
+    2022.07-2022.12 \textbf{MRAM 大容量 LLC 可行性和性能受益评估}：负责评 估LLC 使用 MRAM 之后写时延、读时延、LLC 容量对于通用计算场景性 能的影响，写寿命是否满足应用需求的仿真评估。分析梳理相关代码，确定 对应需要修改的参数。确定测试方案，分析选择通用场景具有代表性的用例。 完成10+ 用例测试，输出测试报告1篇。 \\
+    }
 	{\cvlist{
-		\item Selection of future-proof tools for a large infrastructure
-		\item Infrastructure migration into a cloudstack cloud
-		\item Quality assurance in terms of documentation
-		\item Tool development for infrastructure overview
-		\item Development of Ansible modules for client
+		\item 熟悉linux 内核原理，熟练运用 linux 进程间通信、多线程编程和线程同步， 了解linux 主流发行版
+		\item 了解各种机器学习模型，对卷积神经网络、循环神经网络、transformer原理 有一定理解
+		\item 熟练掌握c++现代特性和Boost库以及网络编程
+		\item 使用Python 语言快速开发、迭代算法
 	}}
 	{\cvlist {
-		\item Python for custom tool development
-		\item Ansible for infrastructure migration and cloud configuration
-		\item SLES12
-		\item Django for Visualization
+		\item 算法开发、系统建模及自动化测试脚本开发
+		\item shell/Linux 测试环境搭建以及自动化测试脚本开发
+		\item 大模型训练
+		\item JupyterNotebook/pandas/Matplotlib 数据分析及可视化处理
 	}}
 	{\cvlist{
-		\item Ansible module for SLES12 System + Package registration
-		\item Python tool for ACL-administration in cloud
-		\item Fully automated migration of old systems into cloud with Ansible playbooks/roles
-		\item Django tool on LDAP - Schema Review
+		\item gem5并行模块和 CHI 协议的开发和维护
+        \item 大容量 LLC 动态 QoS 软硬协同
 	}}
 
 \vfill\null
 \cvevent
-	{Mar 14 - Jan 15}
-	{Systems Analyst}
-	{Research and Development}
-	{Responsible for infrastructure architecture / automaton as well as custom tool development on a project for directory services and identity / access management in a large heterogeneous environment.}
+	{2021.05 - 2022.06}
+	{上海星恒保险代理公司}
+	{战略企划研究员}
+	{
+        开展保险行业深度研究，系统收集和分析宏观经济、监管政策与市场趋势信息，输出高质量研究报告，为管理层提供战略决策支持。\\
+参与制定公司中长期发展战略，结合行业发展动态与公司实际，推动战略方案落地。\\
+建立战略执行评估体系，通过定性与定量指标持续跟踪战略实施效果，提升公司整体战略管理水平。\\
+    }
 	{\cvlist{
-		\item Design and implementation of update and deployment process automaton
-		\item Quality assurance by design of infrastructure monitoring, centralized logging solutions and documentation
-		\item Customized tool creation for ldap operations
-		\item Installation and maintenance of single sign on solutions
-		\item Customer support in ldap / infrastructural / programming concerns
+		\item 市场调研
+		\item 参与公司发展计划的制定与执行
+		\item 风控相关的数据分析工作，完成对关键指标的监控以及异常波动等分析工作
 	}}
 	{\cvlist {
-		\item Ansible for infrastructure automaton and configuration management
-		\item Python for custom Tool development
-		\item nxLog + rsyslog + graylog for logging infrastructure
-		\item NOVELL eDirectory
-		\item Shibboleth as identity Provider combined with ldap
-		\item SLES11
-		\item Git for configuration and documentation versioning
+		\item Python 自动化数据抓取
+		\item JupyterPandas/Matplotlib 数据分析与画图
+		\item EXCEL/PPT 定期专项业务报告
 	}}
 	{\cvlist{
-		\item Drastically accelerated (~20x faster) the update process and improved its reliability by introduction of centralized configuration management
-		\item Extended the python-ldap library with interfaces for simplified access and modification of LDAP-Objects and searches
-		\item  Introduction of a complete and reliable centralized logging solution including log filtering and alerting for both windows and Linux systems
+		\item 负责保险行业研究与经营分析，撰写市场趋势报告，支持公司战略决策；参与制定中长期发展战略，并推动战略执行与效果评估。
 	}}
 
-\vfill\null
-\cvevent
-	{Sep 13 - Mar 14}
-	{Systems Analyst}
-	{Tourism industry}
-	{Responsible for data transformation and tool customization on a migration (legacy c++ code from Solaris to Linux systems) project. The tasks include}
-	{\cvlist{
-		\item Tool development for identification of critical spots in code
-		\item Legacy code analysis
-		\item Quality assurance
-		\item Department-wide training in python
-		\item Consulting in topics of migration to Git
-	}}
-	{\cvlist {
-		\item Python
-		\item Git
-		\item Linux (Debian)
-	}}
-	{\cvlist{
-		\item Implementing code coverage and dynamic code checker for c++ legacy source code based on gcov
-		\item Introduction of Python + Environment in project
-	}}
-
-\vfill\null
-\cvevent
-	{Oct 12 - Sep 13}
-	{Systems Analyst}
-	{Tourism industry}
-	{Responsible for the infrastructure including performance and quality assurance on a large social media project.}
-	{\cvlist{
-		\item Organization and care of a cloud network (Debian systems)
-		\item Support for software developers
-		\item Configuration of open source tools for code quality and documentation
-		\item Implementation of performance checks
-		\item Implementation of automated reports on code quality and performance
-	}}
-	{\cvlist {
-		\item Python + Django for tool development
-		\item Sonar as static and dynamic tool for code analysis
-		\item OpenLDAP for user rights management
-		\item JIRA as the issue tracking/SCRUM tool
-	}}
-	{\cvlist{
-		\item Customized wiki and documentation application for developers with Jenkins and Git integration
-		\item Django web application to test the product performance using selenium tests in background with customizable tests / test
-environments ad a graphical evaluation using the jqPlot library (also Jaiascript / jQuery)
-		\item Improvement of the overall code quality by raising test coverage (+ \~30\%) and identification + elimination of potential code flaws
-	}}
-
-\vfill\null
-\cvevent
-	{Oct 11 - Oct 12}
-	{IT Consultant}
-	{Accenture Tech. Solutions}
-	{Large public service project with the goal to establish a platform for handling of finance processes with a very high number of transactions. Main focus was the migration of legacy data, by assuring data quality and transformation into various formats}
-	{\cvlist{
-		\item Customer consulting with regard to loading / unloading interfaces
-		\item Definition of requirements for transformation of legacy data
-		\item Implementation of algorithms for data transformation
-		\item Tool development for secure data transport
-		\item Tool development for tests of data quality/interface implementation
-	}}
-	{\cvlist {
-		\item Standard Linux tools, such as awk, sed, grep, ...
-		\item Python for in-depth data analysis
-		\item Java for transport layers
-		\item IBM DataStage
-	}}
-	{\cvlist{
-		\item Definition of uniform standards
-		\item Introduction of the standard Linux stack as global toolset for data analysis in project
-	}}
 
 % hotfixes to create fake-space to ensure the whole height is used
 \mbox{}
